@@ -27,20 +27,20 @@ form {
 .container {
   margin: 120px auto;
   max-width: 800px;
-  background-color: rgba(250, 241, 215, 0.932);
+  background-color: rgba(193, 222, 135, 0.868);
   border-radius: 15px;
 }
 .container2 {
   margin: 120px auto;
   max-width: 800px;
-  background-color: rgba(240, 210, 198, 0.932);
+  background-color: rgb(182, 239, 182);
   border-radius: 5px;
   padding: 20px auto;
   text-align: center;
 }
 .prompt {
   padding: 16px;
-  border-radius: 3px solid rgb(234, 204, 209);
+  border-radius: 3px solid rgb(182, 239, 182);
   width: 80%;
   font-size: 16px;
   border-radius: 20px;
@@ -48,7 +48,7 @@ form {
 }
 .cookie {
   margin-left: 10px;
-  background-color: rgb(238, 198, 211);
+  background-color: rgb(182, 239, 182);
   width: 150px;
   font-size: larger;
   border: none;
@@ -57,7 +57,7 @@ form {
 }
 .recipe {
   font-size: 15px;
-  background-color: rgb(245, 201, 170);
+  background-color: rgb(182, 239, 182);
   line-height: 24px;
   border-left: 3px solid rgb(207, 168, 206);
   box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
