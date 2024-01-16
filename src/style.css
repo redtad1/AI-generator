@@ -1,5 +1,70 @@
 body {
-  background-image: url("../img/baking.jpg");
+  background-image: url("../img/baking-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: rgb(90, 51, 3);
+}
+main {
+  margin-bottom: 30px;
+}
+header {
+  margin-bottom: 30px;
+}
+form {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.container {
+  margin: 120px auto;
+  max-width: 800px;
+  background-color: rgba(250, 241, 215, 0.932);
+  border-radius: 15px;
+}
+.container2 {
+  margin: 120px auto;
+  max-width: 800px;
+  background-color: rgba(240, 210, 198, 0.932);
+  border-radius: 5px;
+  padding: 20px auto;
+  text-align: center;
+}
+.prompt {
+  padding: 16px;
+  border-radius: 3px solid rgb(234, 204, 209);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+.cookie {
+  margin-left: 10px;
+  background-color: rgb(238, 198, 211);
+  width: 150px;
+  font-size: larger;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 24px;
+}
+.recipe {
+  font-size: 15px;
+  background-color: rgb(245, 201, 170);
+  line-height: 24px;
+  border-left: 3px solid rgb(207, 168, 206);
+  box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+fotter {
+  padding-top: 10px;
+  font-size: 13px;
+  margin-top: 30px;
 }
