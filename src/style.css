@@ -61,6 +61,7 @@ form {
 }
 .cookie-button:hover {
   background-color: rgb(160, 210, 160);
+  cursor: pointer;
 }
 .small {
   line-height: 1.5;

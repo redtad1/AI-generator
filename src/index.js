@@ -5,7 +5,7 @@ function displayRecipe(response) {
     autoStart: true,
     loop: false,
     deleteSpeed: 0,
-    delay: 15,
+    delay: 30,
     cursor: null,
   });
 }
