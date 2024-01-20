@@ -1,10 +1,8 @@
 function displayRecipe(response) {
   console.log(response);
   new Typewriter("#recipe-generator", {
-    strings: [response.data.answer],
+    strings: response.data.answer,
     autoStart: true,
-    loop: false,
-    deleteSpeed: 0,
     delay: 30,
     cursor: null,
   });
@@ -23,10 +21,13 @@ function generateRecipe(event) {
   console.log(`context:${context}`);
 
   axios.get(apiUrl).then(displayRecipe);
+  let promptRecipeElement = document.querySelector("#prompt-recipe");
+  promptRecipeElement.innerHTML =
+    '<p class="generating-message">👩‍🍳❤️Generating a delicious cookies recipe for you😋🍪!</p>';
 }
 
 let promptRecipeElement = document.querySelector("#prompt-recipe");
 promptRecipeElement.addEventListener("submit", generateRecipe);
 
 let recipeGeneratorElement = document.querySelector("#recipe-generator");
-recipeGeneratorElement.innerHTML = `<div class="generating">👩‍🍳 Here's a delicious cookie recipe for you🍪 !</div>`;
+recipeGeneratorElement.innerHTML = `<div class="generating">👩‍🍳 Here's a delicious cookies recipe for you🍪 !</div>`;

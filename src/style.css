@@ -77,6 +77,10 @@ form {
   box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
   border-radius: 5px;
 }
+.generating-message {
+  font-size: 45px;
+  color: rgb(90, 51, 3);
+}
 fotter {
   font-weight: 400;
   padding-top: 10px;
