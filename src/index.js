@@ -4,7 +4,8 @@ function displayRecipe(response) {
     strings: [response.data.answer],
     autoStart: true,
     loop: false,
-    delay: 1,
+    deleteSpeed: 0,
+    delay: 15,
     cursor: null,
   });
 }
@@ -13,7 +14,7 @@ function generateRecipe(event) {
   let instructionsInput = document.querySelector("#user-instructions");
   let apikey = "c43da09a1983b5385088td638a5of324";
   let prompt = `User instructions:Generate a delicious cookie recipe ${instructionsInput.value}`;
-  let context = `You are a baker that likes short and simple cookie recipes in basic HTML and separate each line always with <br/>. Please include the title in an <h3> and do not delet`;
+  let context = `You are a baker that likes short and simple cookie recipes in basic HTML and separate each line always with <br/>. Please include the title in an <h3>`;
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apikey}`;
   console.log(`API URL: ${apiUrl}`);

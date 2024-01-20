@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+  margin: 0;
 }
 
 h1 {
@@ -19,10 +21,12 @@ header {
   margin-bottom: 30px;
 }
 form {
-  padding: 30px;
-  border-radius: 10px;
   display: flex;
+}
+.form-container {
   margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 15px 30px;
 }
 .container {
   margin: 120px auto;
@@ -55,6 +59,15 @@ form {
   border-radius: 30px;
   padding: 14px 24px;
 }
+.cookie-button:hover {
+  background-color: rgb(160, 210, 160);
+}
+.small {
+  line-height: 1.5;
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
 .recipe {
   font-size: 15px;
   background-color: rgb(223, 238, 192);
