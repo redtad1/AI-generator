@@ -46,7 +46,7 @@ form {
   border-radius: 20px;
   line-height: 20px;
 }
-.cookie {
+.cookie-button {
   margin-left: 10px;
   background-color: rgb(182, 239, 182);
   width: 150px;
@@ -54,7 +54,7 @@ form {
   border: none;
   border-radius: 30px;
   padding: 14px 24px;
-}
+}  
 .recipe {
   font-size: 15px;
   background-color: rgb(223, 238, 192);
